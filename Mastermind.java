@@ -44,7 +44,7 @@ public class Mastermind {
 			// vragen om te raden
 			for (int i = 0; i < 4; i++) {
 				do {
-					System.out.println("Gekozen nummer " + (i++ + 1) + ": ");
+					System.out.println("Gekozen nummers " + (i++ + 1) + ": ");
 					raad[i] = Integer.parseInt (lezer.readLine ());
 				} while (!(raad[i] >= 1 && raad[i] <= 6));
 			

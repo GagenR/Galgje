@@ -1,14 +1,42 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
-// galgje
 
-// het aantal letters van het woord in beeld zien
-// het aantal puntjes zetten
-// Hij vraagt om invoer en toont de letter die is ingegeven
-// checken of de letter erin zit
 
-class Demo {
+class Demo { 
+	int g; //instantie variabele || field
+	static int h; // klasse variabele, als je final static doet, dan wordt deze niet geinitialiseerd.
+	// final houdt in dat je deze niet kan veranderen, maar Java wilt wel weten wat de waarde is
 	public static void main(String[] args) {
+		Demo mijnDemo = new Demo(); //instantieren
+		mijnDemo.starten(); //instantieren 
+	}
+	void starten()  {
+		int a; // lokale variabele NIET AUTOMATISCH geinitieerd worden
+	//	if(a == 3) {
+			
+	//	}
+		String b;
+		b = "";
+		b = new String();
+		Huis mijnHuis = new Huis();
+		
+	}
+	
+	void aanschaffen() {
+		kopen(4);
+		kopen(14);
+	}
+	void kopen(int a) {  //parameter ALTIJD geinitieerd
+		
+	}
+class Huis {
+	
+}
+}
+
+
+	
+	/*	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String hetWoord = "Lantaarn";
 		int aantal = hetWoord.length();
@@ -31,5 +59,5 @@ class Demo {
 		}
 		}
 	}
-		
+*/	
 	
